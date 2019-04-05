@@ -1,4 +1,4 @@
-<keymap version="1" name="VS Code" parent="$default">
+<keymap version="1" name="VSCodeMacOs" parent="$default">
     <action id="$Delete">
         <keyboard-shortcut first-keystroke="delete" />
         <keyboard-shortcut first-keystroke="back_space" />
@@ -183,6 +183,7 @@
         <keyboard-shortcut first-keystroke="shift alt down" />
     </action>
     <action id="EditorIndentLineOrSelection">
+        <keyboard-shortcut first-keystroke="tab" />
         <keyboard-shortcut first-keystroke="meta close_bracket" />
     </action>
     <action id="EditorIndentSelection" />
@@ -221,7 +222,9 @@
     <action id="EditorStartNewLineBefore">
         <keyboard-shortcut first-keystroke="shift meta enter" />
     </action>
-    <action id="EditorTab" />
+    <action id="EditorTab">
+        <keyboard-shortcut first-keystroke="tab" />
+    </action>
     <action id="EditorTextEnd">
         <keyboard-shortcut first-keystroke="meta down" />
     </action>
@@ -237,6 +240,7 @@
         <keyboard-shortcut first-keystroke="shift ctrl meta left" />
     </action>
     <action id="EditorUnindentSelection">
+        <keyboard-shortcut first-keystroke="shift tab" />
         <keyboard-shortcut first-keystroke="meta open_bracket" />
     </action>
     <action id="ExpandAll">
@@ -254,7 +258,7 @@
         <keyboard-shortcut first-keystroke="meta equals" />
     </action>
     <action id="Tab">
-        <keyboard-shortcut first-keystroke="Tab" />
+        <keyboard-shortcut first-keystroke="tab" />
     </action>
     <action id="ExpandRegionRecursively">
         <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta close_bracket" />
